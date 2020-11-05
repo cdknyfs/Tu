@@ -63,13 +63,13 @@ echo -e '\033[31;40;1m
 	────────────────█████████───────────────
 	──────────────█████████████─────────────
 
-	   \e[35m☾★ ☾★ ☾★ ☾★ YamanEfkar ☾★ ☾★ ☾★ ☾★	
-	 \e[31m☾★ ☾★ ☾★ ☾★ Türk Siber Timi ☾★ ☾★ ☾★ ☾★	
-  \e[32m☾★ ☾★ ☾★ ☾★ İnstagram : @turksibertimi ☾★ ☾★ ☾★ ☾★	
+	   \e[35m☾★ ☾★ ☾★ ☾★ FR13NDS-MRX YAMAN-EFKAR ☾★ ☾★ ☾★ ☾★	
+	 \e[31m☾★ ☾★ ☾★ ☾★ FR13NDS HACK GRUBU - TÜRK HACK TEAM ☾★ ☾★ ☾★ ☾★	
+  \e[32m☾★ ☾★ ☾★ ☾★ İnstagram : @turksibertimi @72.memoli.72 ☾★ ☾★ ☾★ ☾★	
 '
 echo -e '
 \e[31m[01]\e[32mİnstagram			\e[31m[04]\e[32mFacebook
-\e[31m[02]\e[32mTwitter			\e[31m[05]\e[32mMail
+\e[31m[02]\e[32mTwitter			        \e[31m[05]\e[32mMail
 \e[31m[03]\e[32mWhatsapp			\e[31m[06]\e[32mGame (Oyunlar)
 
 \e[31m[00] Code
@@ -78,7 +78,7 @@ echo -e '
 
 
 '
-read -p  "İşlem Numarası:" islem
+read -p  "İşlem Numarası Giriniz →" islem
 }
 
 
