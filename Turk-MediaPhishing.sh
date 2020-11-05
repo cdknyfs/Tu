@@ -127,7 +127,7 @@ elif [[ $islem == 00 ]]; then
 elif [[ $islem == 99 ]]; then
 	exit 1
 else
-	echo -e '\033[36;40;1m Lütfen Girdiğniz İşlem Numarasını Kontrol Ediniz...'	
+	echo -e '\033[36;40;1m Lütfen Girdiğiniz İşlem Numarasını Kontrol Ediniz...'	
 	sleep 1
 	clear 
 	banner
