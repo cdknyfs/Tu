@@ -10,7 +10,7 @@ apt install cat
 chmod 777 *
 rm -rf /data/data/com.termux/files/usr/bin/ngrok
 mv -v ngrok /data/data/com.termux/files/usr/bin
-cd  Site/Instagram/Instagram-bruteforce/
+
 pip install -r requirements.txt
 python2 install.py install
 termux-open-url https://www.instagram.com/72.memoli.72/
