@@ -8,6 +8,7 @@ apt install python2 -y
 apt install php -y
 apt install cat
 chmod 777 *
+
 rm -rf /data/data/com.termux/files/usr/bin/ngrok
 mv -v ngrok /data/data/com.termux/files/usr/bin
 
